@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "863824586870",
+    "project_id": "android-frankenstein",
+    "storage_bucket": "android-frankenstein.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863824586870:android:620773d458ae9bd0cb9757",
+        "android_client_info": {
+          "package_name": "com.b29.frankenstein"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863824586870-8svkrdjljm1e2sspcs0pt7rdsmb47bur.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKGogsSJy335r3YErYRse7S8CoTB0blZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863824586870-8svkrdjljm1e2sspcs0pt7rdsmb47bur.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
