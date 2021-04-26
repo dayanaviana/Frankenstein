@@ -6,5 +6,10 @@ import io.reactivex.rxjava3.disposables.CompositeDisposable
 
 abstract class BaseViewModel : ViewModel() {
     val errorText = MutableLiveData<String>("")
-    val disposables = CompositeDisposable()
+    protected val disposables = CompositeDisposable()
+
+    override fun onCleared() {
+        super.onCleared()
+        disposables.dispose()
+    }
 }
